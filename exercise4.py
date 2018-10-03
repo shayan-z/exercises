@@ -34,7 +34,5 @@ for word in sentence_word:
     		correct = "rain"
     		print(word + " is a wrong word. The correct word is " + correct)
     		replace = sentence.replace(str(word), str(correct))
-    		
-
-correct_word = " ".join(correct_word)
+    correct_word = " ".join(correct_word)
 print(replace)
