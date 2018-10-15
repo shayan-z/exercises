@@ -1,5 +1,5 @@
 f = open("football_players.csv")
-fw = open("football_players.txt","w")
+fw = open("football_players.csv","w")
 for player in f:
 	row = player.strip().split(",")
 	name_player = row[0]

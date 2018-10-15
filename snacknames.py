@@ -13,7 +13,5 @@ snacks = []
 for name in names:
 	snack = input(name + ", what is your favor snack? ")
 	snacks.append(snack)
+	print(name + " his favor snack is + snacks " + str(snack[0]))
 	#count = count + 1
-	
-print(snacks)
-
